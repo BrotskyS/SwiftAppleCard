@@ -13,6 +13,7 @@
 		CE26949127062EBB00344321 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE26949027062EBB00344321 /* Preview Assets.xcassets */; };
 		CE26949327062EBB00344321 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE26949227062EBB00344321 /* Persistence.swift */; };
 		CE26949627062EBB00344321 /* SwiftUiBankTrecker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CE26949427062EBB00344321 /* SwiftUiBankTrecker.xcdatamodeld */; };
+		CE2694A1270630AD00344321 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2694A0270630AD00344321 /* MainView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		CE26949227062EBB00344321 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		CE26949527062EBB00344321 /* SwiftUiBankTrecker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SwiftUiBankTrecker.xcdatamodel; sourceTree = "<group>"; };
 		CE26949727062EBB00344321 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE2694A0270630AD00344321 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		CE26948827062EB800344321 /* SwiftUiBankTrecker */ = {
 			isa = PBXGroup;
 			children = (
+				CE26949D2706302300344321 /* Main */,
 				CE26948927062EB800344321 /* SwiftUiBankTreckerApp.swift */,
 				CE26948B27062EB800344321 /* ContentView.swift */,
 				CE26948D27062EBB00344321 /* Assets.xcassets */,
@@ -73,6 +76,14 @@
 				CE26949027062EBB00344321 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CE26949D2706302300344321 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				CE2694A0270630AD00344321 /* MainView.swift */,
+			);
+			path = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,6 +158,7 @@
 				CE26949327062EBB00344321 /* Persistence.swift in Sources */,
 				CE26948C27062EB800344321 /* ContentView.swift in Sources */,
 				CE26949627062EBB00344321 /* SwiftUiBankTrecker.xcdatamodeld in Sources */,
+				CE2694A1270630AD00344321 /* MainView.swift in Sources */,
 				CE26948A27062EB800344321 /* SwiftUiBankTreckerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
